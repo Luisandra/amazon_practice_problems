@@ -11,5 +11,6 @@ var peakIndexInMountainArray = function(arr) {
     // }
 //got it down to one line of code!!!!!
     console.log(arr.indexOf(Math.max(...arr)))
+    return arr.indexOf(Math.max(...arr))
 };
 peakIndexInMountainArray(c)
